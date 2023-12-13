@@ -1,53 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalnia&family=Rethink+Sans&display=swap');
 
 body {
-    font-family: 'Rethink Sans', sans-serif;
-    margin: 0;
+font-family: 'Rethink Sans', sans-serif;
+margin: 0;
 }
 
 h1 {
     font-family: 'Kalnia', serif;
-}
-
-.nav-bar {
+    }
+    .nav-bar {
     background-color: #7dab8b;
     display: flex;
     flex-direction: row;
+    
     justify-content: end;
-}
+    }
+    .nav-bar-item {
 
-.nav-bar-item {
     font-size: 2em;
     padding: 16px 64px;
-}
+    }
+
+
+
 
 .nav-bar-item input {
     font-size: 1em;
     width: 200px;
-}
+    }
 
-.nav-bar-item:hover {
-    background-color: #567662;
-    color: #fff;
-    cursor: pointer;
+    .nav-bar-item:hover {
+        background-color: #567662;
+
+color: #fff;
+cursor: pointer;
 }
 
 .no-hover:hover {
-    background-color: #7dab8b;
-    color: #000;
-    cursor: auto;
-}
+  background-color: #7dab8b;
+  color: #000;
+
+  cursor: auto;
+  }
 
 .main-body {
-    display: flex;
-    flex-direction: row;
+
+
+display: flex;
+flex-direction: row;
 }
 
-.homepage-photos img {
+
+
+        .homepage-photos img {
     height: 220px;
-    width: 480px;
-}
 
-.homepage-text {
-    font-size: 1.2em;
-}
+    width: 480px;
+        }
+        .homepage-text {
+        font-size: 1.2em;
+        }
