@@ -1,62 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalnia&family=Rethink+Sans&display=swap');
 
 body {
-font-family: 'Rethink Sans', sans-serif;
-margin: 0;
+    font-family: 'Rethink Sans', sans-serif;
+    margin: 0;
 }
 
 h1 {
     font-family: 'Kalnia', serif;
-    }
-    .nav-bar {
+}
+
+.nav-bar {
     background-color: #7dab8b;
     display: flex;
     flex-direction: row;
-    
     justify-content: end;
-    }
-    .nav-bar-item {
+    align-items: center;
+    height: 70px;
+    font-weight: bold;
+}
 
+.nav-bar-item {
+    display: flex;
+    flex-direction: row;
     font-size: 2em;
     padding: 16px 64px;
-    }
-
-
-
+    gap: 15px;
+}
 
 .nav-bar-item input {
     font-size: 1em;
     width: 200px;
-    }
+}
 
-    .nav-bar-item:hover {
-        background-color: #567662;
-
-color: #fff;
-cursor: pointer;
+.nav-bar-item:hover {
+    background-color: #567662;
+    color: #fff;
+    cursor: pointer;
 }
 
 .no-hover:hover {
-  background-color: #7dab8b;
-  color: #000;
-
-  cursor: auto;
-  }
-
-.main-body {
-
-
-display: flex;
-flex-direction: row;
+    background-color: #7dab8b;
+    color: #000;
+    cursor: auto;
 }
 
+.main-body {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+}
 
-
-        .homepage-photos img {
+.homepage-photos img {
     height: 220px;
-
     width: 480px;
-        }
-        .homepage-text {
-        font-size: 1.2em;
-        }
+}
+.homepage-text {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    font-size: 1.2em;
+    padding: 30px;
+}
